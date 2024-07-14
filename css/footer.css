@@ -1,0 +1,25 @@
+footer{
+    background-color: #ffbf24;
+}
+
+footer h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.my-contact{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.card{
+    flex-direction: column;
+}
+
+.widget{
+    width: fit-content;
+}
