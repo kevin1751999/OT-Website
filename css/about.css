@@ -1,0 +1,98 @@
+.about {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.about h1 {
+    padding-bottom: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+}
+
+
+.circular--portrait {
+    width: 150px;
+    height: 150px;
+    /* overflow: hidden; */
+    border-radius: 50%;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+
+.element {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.element figcaption{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.element h6{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.li{
+    margin: 0 150px;
+}
+
+.li ul{
+    list-style-type:none;  
+}
+
+.li ul li{
+    text-align: justify;
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+/* Journey Section */
+.journey {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.journey div {
+    width: 50%;
+}
+
+.journey div h1 {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 200;
+}
+
+.journey div p {
+    text-align: left;
+    width: 450px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.impact h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.impact, .impact p{
+    text-align: center !important;
+    font-weight: 400;
+    width: auto !important;
+}
